@@ -12,6 +12,14 @@
         <servlet-name>semester_registered</servlet-name>
         <servlet-class>semester_registered</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>jobs</servlet-name>
+        <servlet-class>jobs</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Education</servlet-name>
+        <servlet-class>Education</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>StudentRegistration</servlet-name>
         <url-pattern>/StudentRegistration</url-pattern>
@@ -23,6 +31,14 @@
     <servlet-mapping>
         <servlet-name>semester_registered</servlet-name>
         <url-pattern>/semester_registered</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>jobs</servlet-name>
+        <url-pattern>/jobs</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Education</servlet-name>
+        <url-pattern>/Education</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -175,7 +175,11 @@ public final class StudentRegistartion_jsp extends org.apache.jasper.runtime.Htt
       out.write("                    \n");
       out.write("                    Current_past: <input type=\"radio\" name=\"Current_past\" value=\"Current Student\">Current Student\n");
       out.write("                    <input type=\"radio\" name=\"Current_Past\" value=\"Past Student\"> Past Student<br><br>\n");
-      out.write("                   \n");
+      out.write("                    Semester: <select type=\"Semester\" class=\"Semester\">\n");
+      out.write("                        <option value=\"Winter\">Winter</option>\n");
+      out.write("                        <option value=\"Fall\"> Fall </option>\n");
+      out.write("                    </select><br> <br>\n");
+      out.write("                    Year:<input type=\"number\" name=\"Year\" class=\"regis_text\" ><br><br>\n");
       out.write("                    <input  type=\"submit\" value=\"register\" class=\"button_register\" />\n");
       out.write("                </form>\n");
       out.write("\n");

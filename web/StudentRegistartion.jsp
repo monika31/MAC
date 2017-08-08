@@ -136,7 +136,11 @@
                     
                     Current_past: <input type="radio" name="Current_past" value="Current Student">Current Student
                     <input type="radio" name="Current_Past" value="Past Student"> Past Student<br><br>
-                   
+                    Semester: <select type="Semester" class="Semester">
+                        <option value="Winter">Winter</option>
+                        <option value="Fall"> Fall </option>
+                    </select><br> <br>
+                    Year:<input type="number" name="Year" class="regis_text" ><br><br>
                     <input  type="submit" value="register" class="button_register" />
                 </form>
 
